@@ -1,0 +1,41 @@
+body {
+    font-family: system-ui;
+    background: black;
+    color: white;
+    text-align: center;
+    
+  }
+  .choices{
+    background-color: Red;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid white;
+    font-size: 120px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .head{
+    font-size: 70px;
+    color: red;
+  }
+  .game{
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  button:hover{
+    background-color: #E10600;
+  }
+  #result{
+    font-size: 60px;
+    color: red;
+  }
+  .output{
+    color: white;
+    font-size: 40px;
+  }
+  
